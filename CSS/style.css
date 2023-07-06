@@ -4,7 +4,7 @@
 }
 
 #row1 {
-    background-color: #2C3F50;
+    background-color: #1C3051;
     height: 30px;
     width: 100%;
 }
@@ -47,7 +47,7 @@
 .social-links i {
     color: #fff;
     line-height: 30px;
-    border-right: 2px solid #000;
+    border-right: 2px solid #fff;
     padding-right: 8px;
 }
 
@@ -102,3 +102,58 @@
 }
 
 /* Row 2 CSS is completed */
+
+/* Row 3 CSS is start */
+
+#row3{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://www.hdwallpapers.in/download/building_with_lights_united_arab_emirates_dubai_hd_travel-HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlay-row3{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+}
+.banner-section{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-content{}
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 180px;
+}
+.banner-content p{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.banner-button{}
+.banner-button button{
+    padding: 10px 20px;
+    background: none;
+    color: #fff;
+    border: 2px groove #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.banner-button button:hover{
+    background-color: #2D4368;
+    transition: 1s;
+}
+
+/* Row 3 CSS is completed */
