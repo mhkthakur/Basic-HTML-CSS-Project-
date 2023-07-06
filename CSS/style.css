@@ -27,14 +27,20 @@
 .left-links ul li {
     float: left;
     list-style: none;
-    margin-left: 10px;
+    margin-left: 20px;
     color: #fff;
     line-height: 30px;
+    font-family: monospace;
+    
 }
 
 .left-links ul li a {
     color: #fff;
     text-decoration: none;
+}
+.left-links ul li a:hover{
+    background: #fff;
+    color: #000;
 }
 
 .social-links {
@@ -47,8 +53,16 @@
 .social-links i {
     color: #fff;
     line-height: 30px;
+    padding-left: 8px;
     border-right: 2px solid #fff;
     padding-right: 8px;
+}
+#fb{
+    border-left: 2px solid #fff;
+    padding-left: 8px;
+}
+.social-links i:hover{
+    background-color: #000;
 }
 
 /* Row 1 CSS is completed */
@@ -61,23 +75,28 @@
     background-color: #fff;
 }
 .header-section{
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .logo{
     width: 20%;
     float: left;
 }
 .logo img{
-    height: 40px;
-    margin-top: 10px;
+    height: 70px;
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
 }
 .menu{
     width: 70%;
     float: left;
 }
 .menu ul{
-    margin-left: 30px;
+    margin-left: 160px;
 }
 .menu ul li {
     float: left;
@@ -91,7 +110,12 @@
 .menu ul li a{
     text-decoration: none;
     text-transform: uppercase;
+    font-family: monospace;
     color: #455964;
+    font-size: 15px;
+}
+.menu ul li a:hover{
+    color: black;
 }
 .menu ul li i{
     height: 30px;
@@ -100,7 +124,10 @@
     border-radius: 100%;
     line-height: 30px;
 }
-
+.menu ul li i:hover{
+    background-color: #000;
+    color: #fff;
+}
 /* Row 2 CSS is completed */
 
 /* Row 3 CSS is start */
