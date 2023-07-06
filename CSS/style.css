@@ -9,6 +9,8 @@
     width: 100%;
 }
 
+/* Row 1 CSS start */
+
 .top-section {
     width: 90%;
     margin: 0 auto;
@@ -48,3 +50,55 @@
     border-right: 2px solid #000;
     padding-right: 8px;
 }
+
+/* Row 1 CSS is completed */
+
+/* Row 2 CSS start */
+
+#row2{
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+}
+.header-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    height: 40px;
+    margin-top: 10px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    margin-left: 30px;
+}
+.menu ul li {
+    float: left;
+    line-height: 70px;
+    text-align: right;
+    width: 98px;
+    text-align: center;
+    list-style: none;
+    margin-left: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #455964;
+}
+.menu ul li i{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #455964;
+    border-radius: 100%;
+    line-height: 30px;
+}
+
+/* Row 2 CSS is completed */
