@@ -31,14 +31,15 @@
     color: #fff;
     line-height: 30px;
     font-family: monospace;
-    
+
 }
 
 .left-links ul li a {
     color: #fff;
     text-decoration: none;
 }
-.left-links ul li a:hover{
+
+.left-links ul li a:hover {
     background: #fff;
     color: #000;
 }
@@ -57,11 +58,13 @@
     border-right: 2px solid #fff;
     padding-right: 8px;
 }
-#fb{
+
+#fb {
     border-left: 2px solid #fff;
     padding-left: 8px;
 }
-.social-links i:hover{
+
+.social-links i:hover {
     background-color: #000;
 }
 
@@ -69,35 +72,41 @@
 
 /* Row 2 CSS start */
 
-#row2{
+#row2 {
     height: 70px;
     width: 100%;
     background-color: #fff;
 }
-.header-section{
+
+.header-section {
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5%;
     margin-right: 5%;
 }
-.logo{
+
+.logo {
     width: 20%;
     float: left;
 }
-.logo img{
+
+.logo img {
     height: 70px;
     border: 1px solid;
     border-top: none;
     border-bottom: none;
 }
-.menu{
+
+.menu {
     width: 70%;
     float: left;
 }
-.menu ul{
+
+.menu ul {
     margin-left: 160px;
 }
+
 .menu ul li {
     float: left;
     line-height: 70px;
@@ -107,32 +116,37 @@
     list-style: none;
     margin-left: 10px;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: monospace;
     color: #455964;
     font-size: 15px;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: black;
 }
-.menu ul li i{
+
+.menu ul li i {
     height: 30px;
     width: 30px;
     border: 2px solid #455964;
     border-radius: 100%;
     line-height: 30px;
 }
-.menu ul li i:hover{
+
+.menu ul li i:hover {
     background-color: #000;
     color: #fff;
 }
+
 /* Row 2 CSS is completed */
 
 /* Row 3 CSS is start */
 
-#row3{
+#row3 {
     height: 500px;
     width: 100%;
     background-image: url(https://www.hdwallpapers.in/download/building_with_lights_united_arab_emirates_dubai_hd_travel-HD.jpg);
@@ -141,34 +155,41 @@
     background-repeat: round;
     position: relative;
 }
-.overlay-row3{
+
+.overlay-row3 {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, .3);
     position: absolute;
 }
-.banner-section{
+
+.banner-section {
     text-align: center;
     color: #fff;
     position: absolute;
     width: 100%;
     margin: 0 auto;
 }
-.banner-content{}
-.banner-content h1{
+
+.banner-content {}
+
+.banner-content h1 {
     text-transform: uppercase;
     font-size: 50px;
     line-height: 70px;
     padding-top: 180px;
 }
-.banner-content p{
+
+.banner-content p {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
     margin-top: 30px;
 }
-.banner-button{}
-.banner-button button{
+
+.banner-button {}
+
+.banner-button button {
     padding: 10px 20px;
     background: none;
     color: #fff;
@@ -178,9 +199,85 @@
     margin-right: 10px;
     margin-top: 20px;
 }
-.banner-button button:hover{
+
+.banner-button button:hover {
     background-color: #2D4368;
     transition: 1s;
 }
 
 /* Row 3 CSS is completed */
+
+/* Row 4 CSS start */
+
+#row4 {
+    height: 80px;
+    width: 100%;
+    background-color: #0E192B;
+}
+
+.form-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-part {
+    width: 20%;
+    float: left;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.text-part h1 {
+    color: #fff;
+}
+
+.text-part h4 {
+    line-height: 30px;
+}
+
+.form-part {
+    padding: 20px;
+}
+
+.form-part form {
+    width: 80%;
+    float: left;
+}
+
+.input-item {
+    float: left;
+    padding-top: 10px;
+}
+
+.input-item label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #455964;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.input-item input[type="text"] {
+    padding: 5px;
+    width: 320px;
+}
+
+.input-item input[type="date"] {
+    padding: 5px;
+    width: 320px;
+}
+
+.input-item i {
+    color: black;
+    position: absolute;
+    margin-left: -24px;
+    line-height: 31px;
+}
+
+.form-part button {
+    padding: 5px;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+
+/* Row 4 CSS is complete */
