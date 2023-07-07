@@ -281,3 +281,53 @@
 }
 
 /* Row 4 CSS is complete */
+
+/* Row 5 CSS start */
+
+#row5{
+    height: 500px;
+    width: 100px;
+    background: #fff;
+}
+.offer-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.offer-top{
+    text-align: center;
+    padding: 40px 0px;
+}
+.offer-top h2{}
+.offer-top p{}
+.offer-bottom{}
+.all-offer-item{}
+.offer-item{
+    width: 230px;
+    float: left;
+    margin-left: 40px;
+    border: 4px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    padding: 5px;
+    transition: 1s;
+}
+.offer-item:hover{
+    transform: scale(1.2);
+}
+.offer-item img{  
+    width: 100%; 
+    height: 150px;
+}
+.offer-text{
+    width: 80%;
+    float: left;
+}
+.offer-text h3{}
+.offer-text h4{}
+.offer-icon{
+    width: 10%;
+    float: right;
+}
+.offer-icon i{}
+
+/* Row 5 CSS is complete */
