@@ -284,24 +284,31 @@
 
 /* Row 5 CSS start */
 
-#row5{
-    height: 500px;
-    width: 100px;
+#row5 {
+    height: 400px;
+    width: 100%;
     background: #fff;
 }
-.offer-section{
+
+.offer-section {
     width: 90%;
     margin: 0 auto;
 }
-.offer-top{
+
+.offer-top {
     text-align: center;
     padding: 40px 0px;
 }
-.offer-top h2{}
-.offer-top p{}
-.offer-bottom{}
-.all-offer-item{}
-.offer-item{
+
+.offer-top h2 {}
+
+.offer-top p {}
+
+.offer-bottom {}
+
+.all-offer-item {}
+
+.offer-item {
     width: 230px;
     float: left;
     margin-left: 40px;
@@ -309,25 +316,251 @@
     border-radius: 5px;
     box-shadow: 2px 2px 2px;
     padding: 5px;
-    transition: 1s;
+    transition: .5s;
 }
-.offer-item:hover{
+
+.offer-item:hover {
     transform: scale(1.2);
 }
-.offer-item img{  
-    width: 100%; 
+
+.offer-item img {
+    width: 100%;
     height: 150px;
 }
-.offer-text{
+
+.offer-text {
     width: 80%;
     float: left;
 }
-.offer-text h3{}
-.offer-text h4{}
-.offer-icon{
+
+.offer-text h3 {}
+
+.offer-text h4 {}
+
+.offer-icon {
     width: 10%;
     float: right;
 }
-.offer-icon i{}
+
+.offer-icon i {}
 
 /* Row 5 CSS is complete */
+
+/* Row-6 CSS Start */
+#row6{
+    height: 500px;
+    width: 100%;
+    background: url(https://media.istockphoto.com/id/1278304139/photo/tokyo-cityscape-aerial-view.jpg?s=612x612&w=0&k=20&c=uUFgKZ9LpwL2hHAHdsEbLEbJjfo6WKOcoGLHq2bL3ug=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlay-6{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+}
+.holidays_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.holi_top{
+    text-align: center;
+    padding: 40px 0px;
+    color: #fff;
+    position: absolute;
+    left: 45%;
+}
+.holi_top h1{
+    text-transform: uppercase;
+}
+.holi_top p{}
+.holi_bottom{
+    padding-bottom: 40px;
+    position: absolute;
+    top: 50%;
+
+}
+.holi_item_all{}
+.holi_item {
+    width: 189px;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.holi_item i {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    line-height: 100px;
+    font-size: 50px;
+}
+.holi_item h4{}
+/* Row-6 CSS End */
+
+/* Row-7 CSS Start */
+#row7
+{
+height: 400px;
+width: 100%;
+background: #fff;
+}
+.happy_section
+{
+width: 90%;
+margin: 0 auto;
+
+}
+.happy_top
+{
+text-align: center;
+padding: 40px 0px;
+}
+.happy_top h1
+{
+    text-transform: uppercase;
+}
+.happy_top p
+{
+
+}
+.happy_bottom
+{
+padding-bottom: 40px;
+}
+.happy_item
+{
+width: 29%;
+float: left;
+margin-left: 15px;
+border: 2px solid skyblue;
+padding: 10px;
+transition: 1s;
+}
+.happy_item:hover{
+    border-top: 5px solid #333;
+}
+.happy_item p
+{
+text-align: justify;
+}
+.happy_item h4{}
+/* Row-7 CSS End */
+
+/* Row 8 CSS start */
+
+#row8{
+    height: 450px;
+    width: 100%;
+    background-color: #1C3051;
+}
+.footer_section{
+    width: 90%;
+    margin: 0 auto;
+    font-family: monospace;
+}
+.footer_top{
+    padding: 40px 0px;
+    border-bottom: 2px solid grey;
+    height: 220px;
+}
+.footer_top_item{
+    width: 22%;
+    float: left;
+    color: #fff;
+}
+.footer_top_item h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.footer_top_item p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 228px;
+}
+.footer_top_item input[type="email"]{
+    padding: 5px;
+}
+.footer_top_item button{
+    padding: 7px 10px;
+    background: grey;
+    border: none;
+}
+.news_item{}
+.news_item_left{
+    width: 30%;
+    float: left;
+}
+.news_item_left img{
+    height: 30px;
+    border: 2px solid #000;
+}
+.news_item_right{
+    width: 70%;
+    float: left;
+}
+.news_item_right h5{
+    margin-top: -2px;
+}
+.news_item_right p{
+    color: grey;
+    font-weight: 600;
+}
+.footer_top_item ul{}
+.footer_top_item ul li{
+    list-style: none;
+    border: 2px solid #fff;
+    float: left;
+    margin: 5px;
+    padding: 3px;
+}
+.footer_top_item h4{
+    font-size: 18px;
+    line-height: 30px;
+}
+.footer_top_item h5{}
+.footer_icon a{
+    color: #fff;
+}
+.footer_icon a:hover{
+    color: #000;
+}
+.footer_icon i{
+    margin-left: 18px;
+}
+.footer_bottom{}
+.footer_menu{
+    height: 25px;
+    color: white;
+}
+.footer_menu ul{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer_menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.footer_menu ul li a{
+    color: #fff;
+}
+.footer_menu ul li a:hover{
+    color: #000;
+}
+.copy_right{}
+.copy_right p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+/* Row 8 CSS end */
